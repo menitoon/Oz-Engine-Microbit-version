@@ -97,7 +97,7 @@ def change_direction(increment):
 ## Spawning Apples
 
 Before even spawning apples we need to define where theses can spawn
-`````python
+````python
 def get_possible_spawn_points(range_x, range_y):
   
   taken_pos = canvas.sprite_position_dict.values()
