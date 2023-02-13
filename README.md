@@ -1,6 +1,6 @@
 ![](https://github.com/menitoon/Oz-Engine-Microbit-version/blob/main/Logo%20x%20microbit.png?raw=true)
 A version of Oz-Engine made for the Microbit card to use it you have to copy-paste the code in the [Python-Microbit-Editor](https://python.microbit.org/).
-
+That like the regular version allow you to make text-based games but here we use leds instead. 
 
 -You can use it like the regular version [here](https://github.com/menitoon/Oz-Engine-Rebooted) (also made by me @menitoon)
 
