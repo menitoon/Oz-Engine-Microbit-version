@@ -2,7 +2,7 @@
 A version of Oz-Engine made for the Microbit card to use it you have to copy-paste the code in the [Python-Microbit-Editor](https://python.microbit.org/).
 
 
--You can use it like the regular version [here](https://github.com/menitoon/Oz-Engine-Rebooted)
+-You can use it like the regular version [here](https://github.com/menitoon/Oz-Engine-Rebooted) (also made by me @menitoon)
 
 -But please note some changes:
 
