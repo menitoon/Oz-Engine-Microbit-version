@@ -1,9 +1,10 @@
 ![](https://github.com/menitoon/Oz-Engine-Microbit-version/blob/main/Logo%20x%20microbit.png?raw=true)
-A version of Oz-Engine made for the Microbit card.
-You can use it like the regular version [here](https://github.com/menitoon/Oz-Engine-Rebooted)
-all you have to do is copy-paste the code in the [Python-Microbit-Editor](https://python.microbit.org/)
+A version of Oz-Engine made for the Microbit card to use it you have to copy-paste the code in the [Python-Microbit-Editor](https://python.microbit.org/).
 
-but please note some changes:
+
+-You can use it like the regular version [here](https://github.com/menitoon/Oz-Engine-Rebooted)
+
+-But please note some changes:
 
 ## -No **prefix**  and **import** needed
 while ``import math`` and ``from microbit import *`` are needed
