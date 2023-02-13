@@ -22,6 +22,9 @@ Giving a string as parameter of ``char`` for the sprite isn't possible instead, 
 
 
 ## Making a game : Snake 🐍
+````diff
+-Before starting please note that possessing a microbit card is required, making this in the simulator won't work.
+````
 
 With the microbit card, you can detect button input without blocking(pausing) which is useful if we want to make
 games like **Snake**
