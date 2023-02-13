@@ -282,7 +282,7 @@ game()
 
 And you're done !
 In case you have an Issue [here](https://github.com/menitoon/Snake-Microbit-with-Oz-Engine) is the full code
-
+(A footage of the game can be seen [here](https://youtu.be/2i8P7uPEmrw)
 
 
 
