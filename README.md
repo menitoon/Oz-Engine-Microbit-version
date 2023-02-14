@@ -34,7 +34,7 @@ Giving a string as parameter of ``char`` for the sprite isn't possible instead, 
 
 ## Making a game : **Snake 🐍**
 ````diff
--Before starting please note that possessing a microbit card is required, making this in the simulator won't work.
+-Before starting please note that **possessing a microbit card is required**, making this in the simulator won't work.
 ````
 
 Now that we have everything set up we can make a Game : **Snake 🐍**
