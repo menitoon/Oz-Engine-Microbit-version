@@ -1,14 +1,24 @@
+===========================================================================================
+
 ![](https://github.com/menitoon/Oz-Engine-Microbit-version/blob/main/Logo%20x%20microbit.png?raw=true)
-A version of Oz-Engine made for the Microbit card to use it you have to copy-paste the code in the [Python-Microbit-Editor](https://python.microbit.org/).
-That like the regular version allow you to make text-based games but here we use leds instead. 
 
--You can use it like the regular version [here](https://github.com/menitoon/Oz-Engine-Rebooted) (also made by me @menitoon)
+===========================================================================================
 
--But please note some changes:
+
+# A version of Oz-Engine made for the Microbit card.
+That like the regular version allow you to make **text-based games** but here we use **leds** instead. 
+
+## How to use it 🤔
+
+First Go check the documentation of the [regular engine](https://github.com/menitoon/Oz-Engine).
+Once you understood how it works copy-paste the code that is on the [repository](https://github.com/menitoon/Oz-Engine-Microbit-version/releases/tag/v1.0.0) in the [Python Microbit Code Editor](https://python.microbit.org/)
+
+-⚠️ **But** please note some changes:
 
 ## -No **prefix**  and **import** needed
 while ``import math`` and ``from microbit import *`` are needed
-``ìmport OzEngine as oz`` is not possible since the Microbit card can only work with one file so the prefix **oz** is not needed.
+``ìmport OzEngine as oz`` is not possible since the Microbit card can only work with one file, we are directly copying the engine into that one single file
+and using these functions directly.
 
 
 ## -**Rendering** on the Microbit card
