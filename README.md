@@ -1,8 +1,9 @@
-===========================================================================================
+
+===========================================================================
 
 ![](https://github.com/menitoon/Oz-Engine-Microbit-version/blob/main/Logo%20x%20microbit.png?raw=true)
 
-===========================================================================================
+===========================================================================
 
 
 # A version of Oz-Engine made for the Microbit card.
@@ -31,13 +32,14 @@ Giving a string as parameter of ``char`` for the sprite isn't possible instead, 
 
 
 
-## Making a game : Snake 🐍
+## Making a game : **Snake 🐍**
 ````diff
 -Before starting please note that possessing a microbit card is required, making this in the simulator won't work.
 ````
 
+Now that we have everything set up we can make a Game : **Snake 🐍**
 With the microbit card, you can detect button input without blocking(pausing) which is useful if we want to make
-games like **Snake**
+games that are real-time-based.
 
 ## Making the **Gameloop** 🔄
 
