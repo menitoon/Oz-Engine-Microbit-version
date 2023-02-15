@@ -1,17 +1,16 @@
 
-===========================================================================
+
 
 ![](https://github.com/menitoon/Oz-Engine-Microbit-version/blob/main/Logo%20x%20microbit.png?raw=true)
 
-===========================================================================
 
 
 # A version of Oz-Engine made for the Microbit card.
 That like the regular version allow you to make **text-based games** but here we use **leds** instead. 
 
-## How to use it 🤔
+## How to use it 
 
-First Go check the documentation of the [regular engine](https://github.com/menitoon/Oz-Engine).
+First Go check the documentation of the [regular engine](https://github.com/menitoon/Oz-Engine/wiki).
 Once you understood how it works copy-paste the code that is on the [repository](https://github.com/menitoon/Oz-Engine-Microbit-version/releases/tag/v1.0.0) in the [Python Microbit Code Editor](https://python.microbit.org/)
 
 -⚠️ **But** please note some changes:
@@ -32,16 +31,16 @@ Giving a string as parameter of ``char`` for the sprite isn't possible instead, 
 
 
 
-## Making a game : **Snake 🐍**
+## Making a game : **Snake **
 ````diff
 -Before starting please note that 𝙥𝙤𝙨𝙨𝙚𝙨𝙨𝙞𝙣𝙜 𝙖 𝙢𝙞𝙘𝙧𝙤𝙗𝙞𝙩 𝙘𝙖𝙧𝙙 𝙞𝙨 𝙧𝙚𝙦𝙪𝙞𝙧𝙚𝙙, making this in the simulator won't work.
 ````
 
-Now that we have everything set up we can make a Game : **Snake 🐍**
+Now that we have everything set up we can make a Game : **Snake **
 With the microbit card, you can detect button input without blocking(pausing) which is useful if we want to make
 games that are real-time-based.
 
-## Making the **Gameloop** 🔄
+## Making the **Gameloop** 
 
 I will explain how the gameloop works and then make all function that are used in it.
 ```python
@@ -165,7 +164,7 @@ def game():
 At the top we are making all of these variable ``global`` so we can access them through other functions.
 
 
-## Move 🏃
+## Move 
 
 Let's make that little snake move :
 ````python
@@ -220,7 +219,7 @@ def move(x, y):
 ````
 
 
-## Changing Direction ↩️
+## Changing Direction 
 
 Now let's make the code to change the direction of the snake:
 
@@ -242,7 +241,7 @@ def change_direction(increment):
   return avaible_directions[index]
 ````
 
-## Spawning Apples 🍎
+## Spawning Apples 
 
 Before even spawning apples we need to define where theses can spawn
 ````python
@@ -268,7 +267,7 @@ def spawn_apple(range_x, range_y):
 ````
 
 
-## Detecting **death** 💀
+## Detecting **death** 
 
 Now we need a way to check if we collided in a part of our snake or in the border so let's do that:
 ````python
@@ -288,7 +287,7 @@ def check_death():
     alive = False
 ````
 
-## Executing the **game** 🕹️
+## Executing the **game** 
 
 The final step is very simple just execute the ``game()`` function:
 
